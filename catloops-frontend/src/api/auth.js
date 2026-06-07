@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'http://localhost:5107'
+  baseURL: 'https://catloops.onrender.com'
 })
 
 export const register = (data) => API.post('/users/register', data)
