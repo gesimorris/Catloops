@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Landing from './Pages/Landing'
-import Register from './Pages/Register'
-import Login from './Pages/Login'
-import Dashboard from './Pages/Dashboard'
-import Admin from './Pages/Admin'
+import Landing from './pages/Landing'
+import Register from './pages/Register'
+import Login from './pages/Login'
+import Dashboard from './pages/Dashboard'
+import Admin from './pages/Admin'
 
 function App() {
   return (
